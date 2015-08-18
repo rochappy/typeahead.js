@@ -14,7 +14,7 @@
     } else {
         factory(jQuery);
     }
-})(this, function($) {
+})(this, function() {
     var _ = function() {
         "use strict";
         return {

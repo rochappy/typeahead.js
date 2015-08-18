@@ -14,7 +14,7 @@
     } else {
         root["Bloodhound"] = factory(jQuery);
     }
-})(this, function($) {
+})(this, function() {
     var _ = function() {
         "use strict";
         return {
@@ -927,7 +927,7 @@
     } else {
         factory(jQuery);
     }
-})(this, function($) {
+})(this, function() {
     var _ = function() {
         "use strict";
         return {

@@ -137,7 +137,7 @@ module.exports = function(grunt) {
         objectToExport: 'Bloodhound',
         amdModuleId: 'bloodhound',
         deps: {
-          default: ['$'],
+          // default: ['$'],
           amd: [],
           cjs: ['jquery'],
           global: ['jQuery']
@@ -147,7 +147,7 @@ module.exports = function(grunt) {
         src: '<%= tempDir %>/typeahead.jquery.js',
         amdModuleId: 'typeahead.js',
         deps: {
-          default: ['$'],
+          // default: ['$'],
           amd: [],
           cjs: ['jquery'],
           global: ['jQuery']
