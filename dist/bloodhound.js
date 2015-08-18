@@ -6,8 +6,8 @@
 
 (function(root, factory) {
     if (typeof define === "function" && define.amd) {
-        define("bloodhound", [ "jquery" ], function(a0) {
-            return root["Bloodhound"] = factory(a0);
+        define("bloodhound", [], function() {
+            return root["Bloodhound"] = factory();
         });
     } else if (typeof exports === "object") {
         module.exports = factory(require("jquery"));

@@ -138,7 +138,7 @@ module.exports = function(grunt) {
         amdModuleId: 'bloodhound',
         deps: {
           default: ['$'],
-          amd: ['jquery'],
+          amd: [],
           cjs: ['jquery'],
           global: ['jQuery']
         }
@@ -148,7 +148,7 @@ module.exports = function(grunt) {
         amdModuleId: 'typeahead.js',
         deps: {
           default: ['$'],
-          amd: ['jquery'],
+          amd: [],
           cjs: ['jquery'],
           global: ['jQuery']
         }
